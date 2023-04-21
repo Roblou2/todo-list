@@ -7,7 +7,7 @@
     <title>To-do list</title>
     <script src="main.js" defer></script>
     <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="MaterialDesign-Webfont-master/css/materialdesignicons.css">
+
   </head>
   <body>
     <div class="burger-menu"><span class="mdi mdi-menu"></span></div>
@@ -29,9 +29,13 @@
     <option value=""></option>
     <option value="new">New project</option>
   </select> 
-  <button class = "delete-proj"><span class="mdi mdi-delete"></span>Delete</button>
+  <button class = "delete-proj"><span class="mdi mdi-delete"></span></button>
   </div>
   </div>
+  <div class="storage">
+    <button class="save-session"><span class="mdi mdi-content-save"></span>Save all</button>
+    <button class="wipe-storage"><span class="mdi mdi-harddisk-remove"></span>Wipe</button>
+    </div>
   <div class="new-project-field">
     <form action="#" method="post" id="new-project">
     <label for="new-project">
@@ -107,6 +111,7 @@
                       <td></td>
            </tr>
                   </table>
+                 
                  </div>
 </div>
 

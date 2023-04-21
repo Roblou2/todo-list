@@ -12,7 +12,7 @@ This a to-do list web app. Users can add individual to-do items to specific proj
   <li>move items to different projects</li>
   <li>filter list items by important/due today and due within 7 days</li>
   <li>view every to-do item across all projects</li>
-  <li>Save your projects and list</li>
+  <li>Save your projects and lists</li>
   </ul>
 
 Users can edit items within projects an change the above attributes. 
